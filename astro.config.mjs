@@ -36,6 +36,11 @@ export default defineConfig({
           label: 'GitHub',
           href: 'https://github.com/Clessira',
         },
+        {
+          icon: 'external',
+          label: 'mattes.dev',
+          href: 'https://mattes.dev',
+        },
       ],
       sidebar: [
         {
