@@ -81,6 +81,7 @@ export default defineConfig({
           translations: { en: 'Integrations' },
           items: [
             { label: 'VS Code', slug: 'integrations/vscode' },
+            { label: 'JetBrains', slug: 'integrations/jetbrains' },
             { label: 'Spotlight', slug: 'integrations/spotlight' },
             { label: 'App Intents & Dienste', translations: { en: 'App Intents & Services' }, slug: 'integrations/app-intents' },
             { label: 'CLI', slug: 'integrations/cli' },

@@ -2,6 +2,11 @@
 
 Per-session log of substantive doc changes. Newest on top.
 
+## 2026-06-12 — jetbrains-plugin-page
+
+- New page `integrations/jetbrains` (DE + EN): the JetBrains IDE plugin — setup via the shared editor integration toggle, supported IDEs (2024.2+, macOS only), status bar widgets, action table, plugin settings, security (capability-file discovery + HMAC-signed UDS requests) and transmitted data. Cross-links the VS Code and HTTP-API pages.
+- `astro.config.mjs`: registered `integrations/jetbrains` (label "JetBrains") under Integrationen / Integrations, after VS Code.
+
 ## 2026-06-12 — companion-apps-page
 
 - New page `features/companion-apps` (DE + EN): the iPhone/iPad companion app (start/stop, backfill, create/rename/pin/archive activities, edit/delete entries, per-activity stats, backups), cross-device live sessions over iCloud (live card/banner, stale-session trim sheet + "Trackst du noch?" notification), opt-in interval reminders, the Apple Watch remote-control app, and known limits. Lifts the deliberate "not documented yet" hold from 2026-05-29 — the companions now ship in the TestFlight beta.
